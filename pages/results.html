@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>deer-se: a search engine</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <div class="main" style="margin-left: 20px; margin-top: 20px;">
+        <form action="/search" method="GET">
+            <a href="/"><span style="margin-right: 20px; font-size: 20px;">deer-se</span></a>
+            <input name="q" type="text" id="query" placeholder="what's on your mind?">
+        </form><br><br>
+        <hr>
+        <div id="results"></div>
+        <hr>
+        
+        <small>go to page: <input id="pages" type="number" min="1" value="1" style="width: 30px;"></small><br>
+    </div>
+
+    <script src="/assets/script.js"></script>
+</body>
+</html>

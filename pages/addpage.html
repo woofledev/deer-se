@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>deer-se: add a site</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <div class="main center">
+        <h1>add a site</h1>
+        <form action="/api/addpage" method="POST">
+            <input name="url" type="url" placeholder="enter the url">
+        </form><br>
+        <small>after submission, we will crawl the site for a title and description.</small>
+    </div>
+</body>
+</html>

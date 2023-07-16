@@ -1,0 +1,57 @@
+.main {
+    font-family: Arial, Helvetica;
+    position: absolute;
+}
+
+.center {
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main input[name] {
+    border-radius: 23px;
+    padding-left: 12px;
+    font-size: 14px;
+    height: 35px;
+    width: 325px;
+    padding-right: 12px;
+}
+
+a {color: #1f86da;}
+a:visited {color: #37437c;}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #f5f5f5;
+        color: #1d1d1d;
+    }
+    input[name] {
+        background-color: #b3b3b3;
+        color: #1d1d1d;
+        border: 2px solid #e9dfdf;
+        outline: #e9dfdf solid 2px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1d1d1d;
+        color: #f5f5f5;
+    }
+    
+    input[name] {
+        border-radius: 23px;
+        padding-left: 12px;
+        font-size: 14px;
+        height: 35px;
+        width: 325px;
+        padding-right: 12px;
+        background-color: #222;
+        color: #f5f5f5;
+        border: 2px solid #444;
+        outline: #444 solid 2px;
+    }
+}
